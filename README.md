@@ -22,6 +22,12 @@ Add the following to any JavaScript file:
 
     //= require jscolor
 
+## Versioning
+
+The gem version number tracks JSColor's version number.
+
+The major, minor, and patch version numbers will always represent the JSColor version. Should a gem bug be discovered, a 4th version identifier will be added and incremented.
+
 ## Contributing
 
 1. Fork it
