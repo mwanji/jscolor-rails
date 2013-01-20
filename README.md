@@ -21,6 +21,14 @@ Or install it yourself as:
 Add the following to any JavaScript file:
 
     //= require jscolor
+    
+### Asset path
+
+One tweak has been applied to jscolor.js. `jscolor.dir`'s default value has been changed to `'/assets/'` because jscolor's auto-detect fails to find the images in production mode. To change the path to the asset directory, do the following:
+
+````javascript
+jscolor.dir = '/path/to/assets/';
+````
 
 ## Versioning
 
@@ -35,3 +43,8 @@ The major, minor, and patch version numbers will always represent the JSColor ve
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Changelog
+
+__21/01/2013 1.4.0.1__ Fixed image URL in production mode.
+__20/12/2013 1.4.0__ Initial release.
