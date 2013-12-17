@@ -1,5 +1,5 @@
 module Jscolor
   module Rails
-    VERSION = "1.4.0.1"
+    VERSION = "1.4.2"
   end
 end
