@@ -22,13 +22,19 @@ Add the following to any JavaScript file:
 
     //= require jscolor
     
+## Rails-specific Modifications
+    
 ### Asset path
 
-One tweak has been applied to jscolor.js. `jscolor.dir`'s default value has been changed to `'/assets/'` because jscolor's auto-detect fails to find the images in production mode. To change the path to the asset directory, do the following:
+`jscolor.dir`'s default value has been changed to `'/assets/'` because jscolor's auto-detect fails to find the images in production mode. To change the path to the asset directory, do the following:
 
 ````javascript
 jscolor.dir = '/path/to/assets/';
 ````
+
+### Turbolinks
+
+The `install` function adds a handler for [Turbolinks](https://github.com/rails/turbolinks#events)'s `page:load` event.
 
 ## Versioning
 
