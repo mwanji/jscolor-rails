@@ -22,13 +22,11 @@ Add the following to any JavaScript file:
 
     //= require jscolor
     
-Note: The gem's jscolor.js is NOT the library itself. It simply requires the original jscolor file (renamed to jscolor\_vendor.js) and adds compatibility with Turbolinks.
-    
-## Rails-specific Modifications
-    
-### Asset path
+### Notes
 
-`jscolor.dir`'s default value has been changed to `'/assets/'` because jscolor's auto-detect fails to find the images in production mode. To change the path to the asset directory, do the following:
+The gem's jscolor.js is NOT the library itself. It simply requires the original jscolor file (renamed to jscolor\_vendor.js) and adds compatibility with Turbolinks and the asset pipeline.
+
+`jscolor.dir`'s default value has been changed to `'/assets/'` because jscolor's auto-detect fails to find the images in production mode. To change the path to the asset directory, do the following in your application's JS files:
 
 ````javascript
 jscolor.dir = '/path/to/assets/';
