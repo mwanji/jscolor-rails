@@ -10,6 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["mwanji@gmail.com"]
   gem.summary       = "Integrates JSColor with Rails's asset pipeline"
   gem.homepage      = "https://github.com/mwanji/jscolor-rails"
+  gem.license       = "MIT"
 
   gem.files         = Dir["{lib,vendor}/**/*"]
   gem.require_paths = ["lib"]
