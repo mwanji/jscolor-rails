@@ -22,7 +22,7 @@ Add the following to any JavaScript file:
 
     //= require jscolor
     
-While the gem includes the original jscolor file (renamed to jscolor\_vendor.js), jscolor\_rails.js adds compatibility with Turbolinks.
+Note: The gem's jscolor.js is NOT the library itself. It simply requires the original jscolor file (renamed to jscolor\_vendor.js) and adds compatibility with Turbolinks.
     
 ## Rails-specific Modifications
     
