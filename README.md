@@ -1,6 +1,6 @@
 # jscolor-rails
 
-A gem that makes [JSColor](http://jscolor.com/) available to the Rails asset pipeline.
+A gem that makes [JSColor](http://jscolor.com/) available to Rails applications.
 
 ## Installation
 
@@ -20,7 +20,9 @@ Or install it yourself as:
 
 Add the following to any JavaScript file:
 
-    //= require jscolor
+    //= require jscolor_rails
+    
+While the gem includes the original jscolor.js file, jscolor_rails.js adds compatibility with Turbolinks.
     
 ## Rails-specific Modifications
     
@@ -31,10 +33,6 @@ Add the following to any JavaScript file:
 ````javascript
 jscolor.dir = '/path/to/assets/';
 ````
-
-### Turbolinks
-
-The `install` function adds a handler for [Turbolinks](https://github.com/rails/turbolinks#events)'s `page:load` event.
 
 ## Versioning
 
