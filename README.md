@@ -50,5 +50,6 @@ The major, minor, and patch version numbers will always represent the JSColor ve
 
 ## Changelog
 
-__21/01/2013 1.4.0.1__ Fixed image URL in production mode.
-__20/12/2013 1.4.0__ Initial release.
+* __17/12/2013 1.4.2__ Updated jscolor.js to 1.4.2
+* __21/01/2013 1.4.0.1__ Fixed image URL in production mode
+* __20/12/2013 1.4.0__ Initial release
