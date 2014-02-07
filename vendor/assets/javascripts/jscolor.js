@@ -21,6 +21,7 @@ var jscolor = {
 
 	install : function() {
 		jscolor.addEvent(window, 'load', jscolor.init);
+    jscolor.addEvent(document, 'page:load', jscolor.init);
 	},
 
 
