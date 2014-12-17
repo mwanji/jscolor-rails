@@ -48,6 +48,7 @@ The major, minor, and patch version numbers will always represent the JSColor ve
 
 ## Changelog
 
+* __17/12/2014 1.4.4__ Updated jscolor.js to 1.4.4
 * __07/02/2013 1.4.2.1__ Support for Rails 4 asset pipeline and Turbolinks. Moved customisations out of vendor jscolor.js.
 * __17/12/2013 1.4.2__ Updated jscolor.js to 1.4.2
 * __21/01/2013 1.4.0.1__ Fixed image URL in production mode
