@@ -2,7 +2,7 @@ require 'fileutils'
 
 desc "Create non-digest versions of all assets"
 task "assets:precompile" do
-  fingerprint = /\-[0-9a-f]{32}\./
+  fingerprint = /\-[0-9a-f]{32}?[0-9a-f]{32}\./
   jscolor_assets = ["arrow.gif", "cross.gif", "hs.png", "hv.png"]
   for file in Dir["public/assets/*"]
     next if file !~ fingerprint
